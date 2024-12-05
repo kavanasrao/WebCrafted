@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="'en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Example</title>
+        <style>
+            .layout_design{
+                font-size: medium; /* used to alter the fontsize*/
+                color :rgb(64, 143, 234) /* alter the colour of the text*/
+                        }
+
+            .web_img{
+                width:300px; /* fix image size*/
+                margin :0; /*outer_space of the box*/
+                border-radius: 30px; /* curve the border*/
+                height: auto;
+            }
+            .click_it{
+                background-color: aquamarine;/* alters thebackground color of button*/
+                border: 0px; /*removes the border*/
+                display : block;/*consumes whole block*/
+                width :100px; /*width of the button*/
+                color : rgb(107, 23, 250);/*color of the text*/
+                border-radius: 20px; /* curve the border*/
+                cursor: pointer;
+                transition: opacity 0.1s;
+            }
+            .click_it:hover{
+                opacity: 0.2; /*hover is the effect when button is used to press */
+
+            }
+            
+        </style>
+       
+    </head>
+    <!--class is used to target the specific element for styling-->
+    <body>
+       
+        <img class="web_img" src="image2.webp" alt="image">
+        <p class="layout_design">
+            Css files are typically linked to an HTML document using <br>
+            the link tag in the head section
+        </p>
+        <button class="click_it">click</button>
+    </body>
+</html>
