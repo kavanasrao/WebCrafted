@@ -23,12 +23,13 @@ When a user enters a URL or searches something in the browser, the following ste
 
 HTML works by using **tags** to define elements within the document. These tags describe the structure and content of the webpage. 
 
-For example:
-<html>,<head>,<body>
+For example : <html>,<head>,<body>
 
 ********************************************************************************************************************
 **The Skeleton of a Webpage**
 
+**Rendered Output:**
+```html
 <!Doctype html>
 <html>
     <head>
@@ -47,9 +48,10 @@ For example:
 
 **Key HTML Elements – The Building Blocks**
 
-<h1> to <h6>: Headings that guide your readers from the most significant (h1) to the least (h6).
-<p>: Paragraphs to organize content.
-<a>: Hyperlinks for connecting the web.
-<ul>, <ol>, <li>: Lists to organize information.
-<img>: Insert images to enhance the visual appeal.
-<div>: Containers to hold and organize your content.
+                <h1> to <h6>: Headings that guide your readers from the most significant (h1) to the least (h6).
+                <p>: Paragraphs to organize content.
+
+                <a>: Hyperlinks for connecting the web.
+                <ul>, <ol>, <li>: Lists to organize information.
+                <img>: Insert images to enhance the visual appeal.
+                <div>: Containers to hold and organize your content.
