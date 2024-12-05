@@ -1,6 +1,5 @@
 **Quest_1 :** *Foundation of HTML~The Blueprint of the Web*
 
-![HTML](C:\Users\kavana s\OneDrive\Desktop\HTML&CSS\DALL·E 2024-12-03 17.41.24 - An animated sequence showing the process of how a webpage is loaded in a browser. The animation begins with a user entering a URL in the browser's add.webp)
 
 # What is HTML?
 
@@ -16,14 +15,41 @@ HTML is essential for the following reasons:
 4. **Search Engine Optimization (SEO)**: HTML plays a crucial role in SEO. Proper HTML structure helps search engines understand the content of your page, which improves its visibility.
 
 # How Does HTML Work?
-
-![Protocol](C:\Users\kavana s\OneDrive\Desktop\HTML&CSS\File-Transfer-Protocol-and-HTTPS-gif-2.gif)
-
-
 When a user enters a URL or searches something in the browser, the following steps occur:
 
 1. **Request to the Server**: The browser sends an HTTP or HTTPS request to the server hosting the webpage.
 2. **Server Response**: The server responds with the content of the webpage in HTML format.
 3. **Rendering the Content**: The browser takes the HTML content and uses it to build and render the webpage, displaying it for the user to interact with.
 
-HTML works by using **tags** to define elements within the document. These tags describe the structure and content of the webpage. For example:
+HTML works by using **tags** to define elements within the document. These tags describe the structure and content of the webpage. 
+
+For example:
+<html>,<head>,<body>
+
+********************************************************************************************************************
+**The Skeleton of a Webpage**
+
+<!Doctype html>
+<html>
+    <head>
+    which is not displayed on the web page
+    </head>
+    <body>
+    which is displayed on the web page
+    </body>
+</html>
+
+<html>: The root of all things web-related.
+<head>: Houses metadata, links, and other unseen elements.
+<body>: The home of all visible content.
+
+********************************************************************************************************************
+
+**Key HTML Elements – The Building Blocks**
+
+<h1> to <h6>: Headings that guide your readers from the most significant (h1) to the least (h6).
+<p>: Paragraphs to organize content.
+<a>: Hyperlinks for connecting the web.
+<ul>, <ol>, <li>: Lists to organize information.
+<img>: Insert images to enhance the visual appeal.
+<div>: Containers to hold and organize your content.
